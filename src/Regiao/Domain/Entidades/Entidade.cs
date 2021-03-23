@@ -14,12 +14,13 @@ namespace Regiao.Domain.Entidades
         public Entidade(int id, string nome) { Id = id; Nome = nome; ValidarNome(); }
         public Entidade(string nome) { Nome = nome; ValidarNome(); }
         public abstract void Validar();
+
         protected void ValidarNome()
         {
             AddNotifications(new Contract<Entidade>()
                   .Requires()
-                  .IsNotNullOrEmpty(Nome, nameof(Nome), $"O código é obrigatório.")
-                  .IsBetween(Nome.Length, 1, NOME_TAMANHO_MAXIMO, nameof(Nome), $"O nome tem que ter entre 1 à {NOME_TAMANHO_MAXIMO} caracter(es).")
+                  .IsNotNullOrWhiteSpace(Nome, nameof(Nome), $"O nome é obrigatório.")
+                  .IsLowerOrEqualsThan(Nome.Length, NOME_TAMANHO_MAXIMO, nameof(Nome), $"O nome tem que ter no máximo {NOME_TAMANHO_MAXIMO} caracter(es).")
                   );
         }
     }

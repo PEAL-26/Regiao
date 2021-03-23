@@ -10,10 +10,10 @@ namespace Regiao.Tests.Domain.Tests.Entidades
         [TestMethod("Requer que o nome do destrito não seja nulo")]
         public void NomeObrigatorio()
         {
-            var distrito = new Distrito(1, "");
+            var obj = new Distrito(1, "");
 
-            Assert.AreEqual(false, distrito.IsValid);
-            Assert.AreEqual(distrito.Notifications.Count, 2);
+            Assert.AreEqual(false, obj.IsValid);
+            Assert.AreEqual(obj.Notifications.Count, 2);
         }
 
         [TestCategory("Validar Municipio Ditrito")]

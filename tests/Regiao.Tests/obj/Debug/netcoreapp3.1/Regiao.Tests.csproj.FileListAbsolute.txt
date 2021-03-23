@@ -153,3 +153,4 @@ C:\#PEAL\Dev\PEAL\Regiao\tests\Regiao.Tests\bin\Debug\netcoreapp3.1\runtimes\win
 C:\#PEAL\Dev\PEAL\Regiao\tests\Regiao.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\#PEAL\Dev\PEAL\Regiao\tests\Regiao.Tests\bin\Debug\netcoreapp3.1\Regiao.dll
 C:\#PEAL\Dev\PEAL\Regiao\tests\Regiao.Tests\bin\Debug\netcoreapp3.1\Regiao.pdb
+C:\#PEAL\Dev\PEAL\Regiao\tests\Regiao.Tests\bin\Debug\netcoreapp3.1\AutoMapper.dll

@@ -38,7 +38,7 @@ namespace Regiao.Domain.Entidades
         {
             AddNotifications(new Contract<Pais>()
                .Requires()
-               .IsNotNullOrEmpty(Codigo, nameof(Codigo), $"O código é obrigatório.")
+               .IsNotNullOrWhiteSpace(Codigo, nameof(Codigo), $"O código é obrigatório.")
                .AreEquals(CODIGO_TAMANHO_OBRIGATORIO, Codigo, nameof(Codigo), $"O código do país tem que ter {CODIGO_TAMANHO_OBRIGATORIO} caracter(es).")
                );
         }
