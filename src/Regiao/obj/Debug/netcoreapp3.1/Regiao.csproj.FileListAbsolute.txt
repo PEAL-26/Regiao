@@ -1,0 +1,12 @@
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\bin\Debug\netcoreapp3.1\Regiao.deps.json
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\bin\Debug\netcoreapp3.1\Regiao.runtimeconfig.json
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\bin\Debug\netcoreapp3.1\Regiao.runtimeconfig.dev.json
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\bin\Debug\netcoreapp3.1\Regiao.dll
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\bin\Debug\netcoreapp3.1\Regiao.pdb
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.dll
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.pdb
+C:\#PEAL\Dev\PEAL\Regiao\src\Regiao\obj\Debug\netcoreapp3.1\Regiao.genruntimeconfig.cache
